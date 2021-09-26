@@ -1,0 +1,145 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 10px;
+    color: rgb(61, 61, 61);
+  }
+  .about {
+    text-align: justify;
+    width: 40%;
+  }
+  .about p {
+    color: white;
+    line-height: 1.2;
+  }
+  .category {
+    text-align: justify;
+    width: 15%;
+    text-align: center;
+  }
+  .links {
+    text-align: justify;
+    width: 15%;
+    text-align: center;
+  }
+  .contact {
+    text-align: justify;
+    width: 15%;
+    text-align: left;
+  }
+  .mainHeader {
+    color: white;
+  }
+  .category li {
+    /* text-decoration: none; */
+    list-style: none;
+    color: white;
+    line-height: 2;
+  }
+  .links li {
+    /* text-decoration: none; */
+    list-style: none;
+    color: white;
+    line-height: 2;
+  }
+  .contact li {
+    /* text-decoration: none; */
+    list-style: none;
+    color: white;
+    line-height: 2;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .full {
+    background-color: #26baff;
+    padding: 20px 20px 0px 20px;
+    flex-wrap: wrap;
+  }
+  .register {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    border-top: 1px solid rgb(59, 53, 53);
+    border-bottom: 1px solid rgb(59, 53, 53);
+    padding: 20px;
+  }
+  .register h3 {
+    color: white;
+    text-align: center;
+    margin-top:24px;
+    /* display: inline-block; */
+  }
+  .register button {
+    background-color: #ff2c2c;
+    border: none;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 12px;
+    box-shadow: 2px 2px 8px grey;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .register button:hover{
+      cursor: pointer;
+      background-color: rgb(146, 14, 14);
+      
+  }
+  .copyright {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color: #28292b;
+    padding: 15px;
+    margin: 0;
+  }
+  .circleDiv {
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+  }
+  .icons {
+    background-color: red;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 30px;
+    margin: 10px;
+    width: 3%;
+    height: 3%;
+    color: white;
+    text-align: center;
+  }
+  
+  @media screen and (max-width:700px) {
+  
+    .main{
+      display: block;
+    }
+    .about{
+      width: 100%;
+    }
+    .category{
+      width: 100%;
+    }
+    .links{
+      width: 100%;
+    }
+    .contact{
+      width: 100%;
+      text-align: center;
+    }
+    .icons{
+      width: 1%;
+      height: 1%;
+      font-size: 20px;
+      justify-content: center;
+    }
+  }
