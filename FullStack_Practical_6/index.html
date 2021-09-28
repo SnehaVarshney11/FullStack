@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-6</title>
+    <style>
+        #container {
+            display: inline-flex;
+        }
+        
+        .box {
+            width: 300px;
+            background-color: white;
+            height: 450px;
+            margin-top: 50px;
+            margin-left: 30px;
+            border-radius: 10px;
+        }
+        
+        .heading {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 900;
+            font-size: 20px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        
+        .content {
+            text-align: justify;
+            font-weight: 500;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 15px;
+            margin-bottom: 0px;
+        }
+        
+        button {
+            width: 270px;
+            background-color: red;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            padding: 13px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: teal;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(209, 209, 209);">
+    <span style="color: white; font-size: 315%; display: block; text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 2%;">Practical-6 : Create a Card Layout using CSS Layout Properties.</span>
+    <div id="container">
+        <div class="box" id="box1"><img src="./html pic.png" width="270px" height="165px" style="margin: 15px; margin-bottom: 0px; border-radius: 10px;">
+            <P class="heading">Introduction to HTML</P>
+            <p class="content">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+            <a href="./html.html" target="blank"><button>Read More</button></a>
+        </div>
+        <div class="box" id="box2"><img src="./css pic.png" width="270px" height="165px" style="margin: 15px;margin-bottom: 0px; border-radius: 10px;">
+            <p class="heading">Introduction to CSS</p>
+            <p class="content">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+            <a href="./css.html" target="blank"><button>Read More</button></a>
+        </div>
+        <div class="box" id="box3"><img src="./bootstrap pic.png" width="270px" height="165px" style="margin: 15px;margin-bottom: 0px; border-radius: 10px;">
+            <p class="heading">Introduction to Bootstrap</p>
+            <p class="content">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, and other interface components.
+            </p>
+            <a href="./bootstrap.html" target="blank"><button>Read More</button></a>
+        </div>
+        <div class="box" id="box4"><img src="./java script pic.png" width="270px" height="165px" style="margin: 15px;margin-bottom: 0px; border-radius: 10px;">
+            <p class="heading">Introduction to JavaScript</p>
+            <p class="content">JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, and multi-paradigm. It has curly-bracket syntax, dynamic typing, and first-class functions.</p>
+            <a href="./javascript.html" target="blank"><button>Read More</button></a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
