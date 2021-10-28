@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation {
+    background-color: grey;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: white;
+    font-size: 80px;
+}
+
+#background {
+    margin-bottom: 50px;
+}
+
+.team_img {
+    display: inline-flex;
+}
+
+.team {
+    margin-right: 120px;
+}
+
+#team1 {
+    margin-left: 120px;
+}
+
+.sec2content {
+    display: inline-flex;
+}
+
+.main {
+    background-color: grey;
+    color: white;
+    width: 678px;
+    text-align: justify;
+    margin: 4px;
+    padding: 10px;
+}
+
+.article {
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding: 65px;
+    width: 505px;
+    height: 15px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+#article3 {
+    margin-bottom: 4px;
+    background-color: rgb(211, 211, 211);
+}
+
+#article1 {
+    background-color: rgb(211, 211, 211);
+}
+
+#article2 {
+    background-color: skyblue;
+}
+
+#container {
+    display: inline-flex;
+}
+
+.box {
+    width: 300px;
+    background-color: white;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+
+.heading {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.content {
+    text-align: justify;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+button {
+    width: 270px;
+    background-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: teal;
+}
+
+.contactus {
+    background-color: palevioletred;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+
+a:hover {
+    color: orange;
+}
