@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Practical</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="navbar" style="background-color: black;">
-        <div class="title">
-            <h2 class="heading" style="background-color: black;">DevFolio</h2>
-        </div>
-
-    <div class="menu"> 
-        <ul style="background-color: black;">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">DROPDOWNv</a></li>
-            <li><a href="#">CONTACT</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="nav-container">
+      <header>
+        <div class="logo">DevFolio</div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">WORK</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li>
+            <select name="blog" id="dropdown">
+              <option selected>DROP DOWN</option>
+              <option value="dropdown1">Dropdown1</option>
+              <option value="dropdown2">Dropdown2</option>
+              <option value="dropdown3">Dropdown3</option>
+              <option value="dropdown4">Dropdown4</option>
+            </select>
+          </li>
+          <li><a href="#">CONTACT</a></li>
         </ul>
+      </nav>
     </div>
-</div>
-    <div class="pictures" >
-        <img class="img1" src="rightsign.jpg" alt="">
-        <img class="img2" src="circle.png" alt="">
-        <img class="img3" src="clients.png" alt="">
-        <img class="img4" src="award.png" alt="">
-    </div>
-    
-    
-
-</body>
+    <main>
+      <section>
+        <div class="item-container">
+          <div class="items">
+            <span><i class="fas fa-check"></i></span>
+            <span id="number">450</span>
+            <span id="tag">WORKS COMPLETED</span>
+          </div>
+          <div class="items">
+            <span><i class="fas fa-book"></i></span>
+            <span id="number">25</span>
+            <span id="tag">YEARS OF EXPERIENCE</span>
+          </div>
+          <div class="items">
+            <span><i class="fas fa-users"></i></span>
+            <span id="number">550</span>
+            <span id="tag">CLIENTS</span>
+          </div>
+          <div class="items">
+            <span><i class="fas fa-award"></i></span>
+            <span id="number">48</span>
+            <span id="tag">AWARD WON</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
